@@ -1,0 +1,77 @@
+#locations_block{
+    width: 100%;
+    height: auto;
+    background-color: white;
+    padding: 30px auto;
+}
+.locations_Heading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.locations_Heading>h1{
+    color: black;
+    text-transform: uppercase;
+    margin: 10px auto;
+}
+.locations_Heading>h1 span{
+    color: 	#678E19;
+}
+.locations_Heading>p{
+    max-width: 100%;
+    color: slategrey;
+    display: flex;
+    flex-direction:row;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.locations_Content{
+    height: auto;
+    font-size: 16px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 10px;
+}
+
+.locations_Content p{
+    text-align: center;
+}
+
+.locations_Content p img{
+    height: 20px;
+    display: inline-block;
+    margin: 0px;
+    padding-bottom: 0px;
+    vertical-align: text-bottom;    
+}
+
+.locations_MAP{
+    width: auto;
+    height: 350px;
+    background-image: url('../Images/locations/Locations.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: right; 
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-top: 30px;
+}
+
+.locations_Content .fa-map-marker {
+    color:#668E19;
+}
+
+.locations_Content .fa-phone {
+    color:#668E19;
+}
+
+.locations_Content .fa-envelope {
+    color:#668E19;
+}

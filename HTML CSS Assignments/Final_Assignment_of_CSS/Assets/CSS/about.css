@@ -1,0 +1,43 @@
+#About_Us {
+    background-color: #F2F2F2;
+    padding: 0px 0px 0px 50px;
+    
+}
+.About_Us  h1{
+    font-size: 32px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 10px auto;
+}
+.About_Us  h1 span{
+    color: #678E19;
+}
+#About_Us  p{
+    width: 800px;
+    max-width: 100%;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.About_Us  button{
+    width: 9%;
+    height: 35px;
+    color: black;
+    background: #FEBD19;
+    border-bottom: 2px solid #FF831D;
+    border-top: 2px solid #FEBD19;
+    border-left: 2px solid #FEBD19;
+    border-right: 2px solid #FEBD19;
+    border-radius: 7px;
+}
+.About_Us {
+    background-size: 100% 100%;
+    background-image: url('../Images/about/AboutUs.png');
+    background-repeat: no-repeat;
+    background-position: right; 
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}

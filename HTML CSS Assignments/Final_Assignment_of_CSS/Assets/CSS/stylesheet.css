@@ -1,0 +1,39 @@
+/* CSS Stylesheet for Website */
+@import url("./header.css");
+@import url("./advantages.css");
+@import url("./about.css");
+@import url("./services.css");
+@import url("./portfolio.css");
+@import url("./process.css");
+@import url("./reviews.css");
+@import url("./skills.css");
+@import url("./subscribe.css");
+@import url("./locations.css");
+@import url("./footer.css");
+
+@font-face{
+    font-family:OpenSansPara;
+    src: url('../Fonts/Open-Sans/OpenSans-Light.ttf');
+}
+
+@font-face{
+    font-family:OpenSansHead;
+    src: url('../Fonts/Open-Sans/OpenSans-SemiBold.ttf');
+}
+
+body{
+    font-family: OpenSansPara;
+}
+
+h1{
+    font-family: OpenSansHead;
+}
+
+body{ /* Full Screen No Borders */
+    padding: 0%;
+    margin: 0%;
+}
+
+a { /* Enforce inherit for links */
+    color:inherit;
+}

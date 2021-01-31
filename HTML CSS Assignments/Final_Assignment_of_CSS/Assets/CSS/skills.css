@@ -1,0 +1,48 @@
+#skills_block{
+    width: 100%;
+    height: auto;
+    background-color: white; 
+    display: flex;
+    flex-direction: column;
+}
+.skills_Heading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+}
+.skills_Heading h1{
+    margin: 10px auto;
+    text-transform: uppercase;
+}
+.skills_Heading h1 span{
+    color:	#678E19;
+}
+.skills_Heading p{
+    color: slategrey;
+    text-align: center;
+}
+
+.skills_Content {
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: auto;
+    border: none;
+    margin: 10px auto;
+    padding-bottom: 20px;
+}
+.skills_Content> div >img{
+    height: 130px;
+    width: 130px;
+    margin: 0px auto;
+}
+.skills_Content>div >h2{
+    color:  black;
+    text-align: center;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin: 10px;
+}

@@ -1,0 +1,36 @@
+#Advantages{
+    width: 100%;
+    height: auto;
+}
+.adv_heading{
+   text-align: center;
+}
+.adv_heading h1{
+    font-size: 32px;
+    margin: 10px auto;
+    text-transform: uppercase;
+}
+.adv_heading h1 span{
+    color: #668E19;
+}
+.adv_heading p { 
+    color: slategrey;
+}
+.adv-content img{
+    width: 180px;
+    height: auto;
+}
+.adv-content {
+    width: 100%;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+}
+.img-block p strong{
+    color: black;
+    text-transform: uppercase;
+}
+.img-block p{
+    color: slategrey;
+    text-align: center;
+}
